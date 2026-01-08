@@ -7,5 +7,4 @@ def test_account_details():
         "acc_type: current\n",
         "bal: 4000\n"
     )
-    
-assert account_details(141, "Akash", "current", 4000) == expected_output
+    assert (account_details(141, "Akash", "current", 4000))== expected_output
