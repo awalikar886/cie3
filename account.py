@@ -9,8 +9,8 @@
 
 
 if _name_ == "_main_":
-    acc_no = "101"
+    acc_no = "141"
     hol_name = "akash"
     acc_type = "current
-    bal = 55000
+    bal = 4000
     print(account_details(acc_no,hol_name,acc_type, bal))
