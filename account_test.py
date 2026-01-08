@@ -1,6 +1,6 @@
 from account import account_details
 
-def account_details():
+def test_account_details():
      expected_output = (
         "acc_no: 141\n",
         "hol_name: Akash\n",
