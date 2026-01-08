@@ -1,4 +1,4 @@
-def account_details(acc_no,hol_name,acc_type,bal):
+def account_details(acc,hol_name,acc_type,bal):
     result=(
         f"Account_number:{acc_no}\n"
         f"Holder_name:{hol_name}\n"
@@ -11,4 +11,4 @@ if __name__ == "__main__":
     Holder_name:"Akash";
     Account_type:"current";
     Balance:4000;
-print(acc_no,hol_name,acc_type,bal)
+print(acc,hol_name,acc_type,bal)
