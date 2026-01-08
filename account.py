@@ -1,4 +1,4 @@
- def account_details(acc_no, hol_name, acc_type, bal):
+def account_details(acc_no, hol_name, acc_type, bal):
     result = (
         f"acc no: {acc_no}\n"
         f"hol  Name: {hol_name}\n"
