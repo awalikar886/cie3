@@ -8,4 +8,4 @@ def test_account_details():
         "bal: 4000\n"
     )
     
-assert (141, "Akash", "current", 4000) == expected_output
+assert account_details(141, "Akash", "current", 4000) == expected_output
