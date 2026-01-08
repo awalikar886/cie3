@@ -1,6 +1,6 @@
 def account_details(acc,hol_name,acc_type,bal):
     result=(
-        f"Account_number:{acc_no}\n"
+        f"Account_number:{acc}\n"
         f"Holder_name:{hol_name}\n"
         f"Account_type:{acc_type}\n"
         f"Balance:{bal}\n"
