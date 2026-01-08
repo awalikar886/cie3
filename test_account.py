@@ -7,5 +7,5 @@ def test_account_details():
         f"acc_type: {current}",
         f"bal: {4000}"
     )
-     assert account_details(141, 'akash', 'current', 4000) == expected_output
+     assert account_details(141, akash, current, 4000) == expected_output
 
