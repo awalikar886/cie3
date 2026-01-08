@@ -1,4 +1,4 @@
-def account_details(acc_no,hol_name,acc_type,bal)
+def account_details(acc_no,hol_name,acc_type,bal):
     result=(
         f"Account_number:{acc_no}\n"
         f"Holder_name:{hol_name}\n"
