@@ -6,7 +6,7 @@ def account_details(acc_no,hol_name,acc_type,bal):
         f"Balance:{bal}\n"
     )
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     Account_number:141;
     Holder_name:"Akash";
     Account_type:"current";
