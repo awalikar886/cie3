@@ -8,7 +8,7 @@ def account_details(acc_no, hol_name, acc_type, bal):
     return result
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     acc_no = "141"
     hol_name = "akash"
     acc_type = "current"
