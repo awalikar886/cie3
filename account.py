@@ -9,8 +9,8 @@ def account_details(acc_no, hol_name, acc_type, bal):
 
 
 if __name__ == "__main__":
-    acc_no = "{141}"
-    hol_name = "{akash}"
-    acc_type = "{current}"
-    bal = "{4000}"
+    acc_no = "141"
+    hol_name = "akash"
+    acc_type = "current"
+    bal = "4000"
     print(account_details(acc_no,hol_name,acc_type, bal))
